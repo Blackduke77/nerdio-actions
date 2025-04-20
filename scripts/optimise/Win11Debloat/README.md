@@ -4,7 +4,8 @@ Win11Debloat is a simple, easy to use and lightweight PowerShell script that can
 
 The script also includes many features that system administrators will enjoy. Such as support for Windows Audit mode, the option to make changes to other Windows users and the ability to run the script without requiring user input during runtime.
 
-![Win11Debloat Menu](scripts\optimise\Win11Debloat\Assets\menu.png)
+![Win11Debloat Menu](/Assets/menu.png)
+
 #### Did this script help you? Please consider buying me a cup of coffee to support my work
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M5C6UPC)
