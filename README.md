@@ -1,15 +1,17 @@
-Nerdio Scripted Actions Collection
-Welcome to the Scripted Actions collection for use with Nerdio Manager for Enterprise (NME) and Nerdio Manager for MSP (NMM).
+# Nerdio Scripted Actions Collection
 
-This repository contains curated and reusable PowerShell scripts optimized for use as Scripted Actions within Nerdio deployments.
+This repository contains curated and reusable PowerShell scripts optimized for use as **Scripted Actions** within Nerdio Manager for Enterprise (NME) and Nerdio Manager for MSP (NMM).
 
-📚 Available Scripts
+Each script can be used to automate common post-provisioning or maintenance tasks across Azure Virtual Machines and Windows hosts.
 
-Script Name	Purpose	OS	Parameters
-Extend Disk Partition	Extends a specified partition to use all available unallocated space. Useful after resizing disks.	Windows	DriveLetter, MinimumSizeGB
-(Add more here as you build)			
-🛠 Usage Instructions
-Each script is designed to be pasted into Nerdio Manager's Scripted Actions section.
+---
+
+## 📚 Available Scripts
+
+| Script Name | Purpose | OS | Parameters |
+|:------------|:--------|:---|:-----------|
+| [Extend Disk Partition](./extend-disk-partition/extend-disk-partition.ps1) | Extend an existing partition to use all available unallocated space. | Windows | DriveLetter, MinimumSizeGB |
+
 
 General Steps:
 
