@@ -1,5 +1,40 @@
-# Scripted Actions for Nerdio Manager
+Nerdio Scripted Actions Collection
+Welcome to the Scripted Actions collection for use with Nerdio Manager for Enterprise (NME) and Nerdio Manager for MSP (NMM).
 
-PowerShell scripts for integration with [Scripted Actions in Nerdio Manager](https://nmw.zendesk.com/hc/en-us/articles/4731662951447-Scripted-Actions-Overview).
+This repository contains curated and reusable PowerShell scripts optimized for use as Scripted Actions within Nerdio deployments.
 
-    Note: this code is provided as-is, without warranty or support of any kind.
+📚 Available Scripts
+
+Script Name	Purpose	OS	Parameters
+Extend Disk Partition	Extends a specified partition to use all available unallocated space. Useful after resizing disks.	Windows	DriveLetter, MinimumSizeGB
+(Add more here as you build)			
+🛠 Usage Instructions
+Each script is designed to be pasted into Nerdio Manager's Scripted Actions section.
+
+General Steps:
+
+Go to Scripted Actions > Windows Scripts in Nerdio Manager.
+
+Click Add Scripted Action.
+
+Paste the script content from the corresponding .ps1 file.
+
+Fill in metadata (Name, Description, Execution Context = System).
+
+Enable "This script has parameters" if applicable.
+
+⚙️ Parameters
+Some scripts are designed with parameters for flexibility.
+
+Default values are provided where appropriate.
+
+Parameters can be overridden at runtime when assigning Scripted Actions to deployments.
+
+✍️ Contributing
+Feel free to fork and submit pull requests if you have improvements or new Scripted Actions to contribute!
+
+📄 License
+This repository is licensed under the MIT License.
+
+👨‍💻 Maintainer
+Blackduke77
