@@ -8,7 +8,7 @@ Scripts that adjust Windows system or user environment settings inside Azure VMs
 
 | Script Name | Purpose | Parameters |
 |:------------|:--------|:-----------|
-| enable-entra-authentication-for-rdp.ps1| suppressing single sign-on (SSO) consent prompts for Azure Virtual Desktop (AVD) and Windows 365 | GroupID and Group Name to be updated in script |
+| enable-entra-authentication-for-rdp.ps1| suppressing single sign-on (SSO) consent prompts for Azure Virtual Desktop (AVD) and Windows 365 | Group ID and Group Name to be updated in script $tdg.Id $tdg.DisplayName  |
 
 ---
 
