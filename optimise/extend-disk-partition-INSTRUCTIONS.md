@@ -12,7 +12,7 @@ When adding the script as a Scripted Action:
 |:--------|:------|
 | **Script Name** | Extend Disk Partition |
 | **Description** | Extends a disk partition to use all available unallocated space if disk size exceeds a minimum threshold. |
-| **Execution Context** | System |
+| **Execution Moded** | Combined |
 | **Operating System** | Windows |
 | **Has Parameters** | Yes |
 
