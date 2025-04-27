@@ -1,10 +1,20 @@
 # Nerdio Scripted Actions Collection
 
+![License](https://img.shields.io/github/license/Blackduke77/nerdio-actions?style=flat-square)
+![PowerShell](https://img.shields.io/badge/Language-PowerShell-blue?style=flat-square)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=flat-square)
+![Nerdio Manager](https://img.shields.io/badge/Nerdio-Supported-blueviolet?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/Blackduke77/nerdio-actions?style=flat-square)
+
+---
+
+
 Welcome to the **Nerdio Scripted Actions Collection**!
 
 This repository contains curated and reusable PowerShell scripts optimized for use within [Nerdio Manager for Enterprise (NME)](https://getnerdio.com/nerdio-manager-enterprise/) and [Nerdio Manager for MSP (NMM)](https://getnerdio.com/nerdio-manager-msp/).
 
-Each script can be used to automate common post-provisioning, maintenance, and management tasks for Azure Virtual Machines and Windows hosts.
+Each script is designed to automate common post-provisioning, maintenance, and management tasks for Azure Virtual Machines and Windows hosts.
 
 Note: this code is provided as-is, without warranty or support of any kind.
 
@@ -24,10 +34,15 @@ Each script is designed to be pasted into Nerdio Manager's **Scripted Actions** 
 
 **General steps to add a script:**
 1. Navigate to **Scripted Actions** > **Windows Scripts** in Nerdio Manager.
+
 2. Click **Add Scripted Action**.
+
 3. Copy the script content from the corresponding `.ps1` file in this repository.
+
 4. Paste it into the Nerdio Scripted Action editor.
+
 5. Fill in metadata fields such as Name, Description, Operating System (Windows), and Execution Context (System).
+
 6. Enable **"This script has parameters"** if applicable.
 
 ---
