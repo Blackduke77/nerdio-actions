@@ -70,7 +70,7 @@ Please follow the existing structure when adding new scripts.
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/Blackduke77/nerdio-actions/blob/main/LICENSE).
 
 You are free to use, modify, and distribute these scripts under the terms of the license.
 
