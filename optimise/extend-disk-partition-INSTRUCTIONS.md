@@ -4,23 +4,23 @@
 
 This script should be added to Nerdio Manager as a Windows Scripted Action.
 
-**Nerdio Manager Settings:**
+### Nerdio Manager Settings
 - **Execution Context**: System
 - **Operating System**: Windows
 - **Has Parameters**: Yes
 
-**Default Parameters:**
+### Default Parameters
 - `DriveLetter`: C
 - `MinimumSizeGB`: 128
 
-**Suggested Use Cases:**
+### Suggested Use Cases
 - Run after resizing Azure VM OS disks.
 - Run after attaching larger data disks to a VM.
 - Include during the auto-scaling process for Session Hosts.
 - Attach as a Post-Provisioning Scripted Action on Windows desktop images.
 
-**Suggested Assignment in Nerdio:**
-- During VM creation (`Create Desktop Image`, `Provision Host Pools`)
+### Suggested Assignment in Nerdio
+- During VM creation (Create Desktop Image, Provision Host Pools)
 - As a Post-Resize Action for scaled up VMs
 - As a Manual Repair Script for VMs with incorrect disk partition size
 
@@ -35,3 +35,5 @@ This script should be added to Nerdio Manager as a Windows Scripted Action.
 | Execution Context | System |
 | OS Type | Windows |
 | Script Parameters | DriveLetter, MinimumSizeGB |
+
+---
