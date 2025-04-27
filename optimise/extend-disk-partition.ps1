@@ -13,27 +13,33 @@ The drive letter of the partition to extend. (Default: C)
 .PARAMETER MinimumSizeGB
 The minimum disk size (in GB) required before extension is attempted. (Default: 128)
 
+.ExecutionContext
+System
+
 .NOTES
-Execution Context: System
 Intended for Azure Windows VMs managed via Nerdio Manager.
 Tested with Windows Server and Windows 10/11.
 #>
-
 param (
-    [string]$DriveLetter = "C",
-    [int]$MinimumSizeGB = 128
-)
+  [ComponentModel.DisplayName('Drive Letter')]
+  [Parameter(Mandatory)]
+  [string] $DriveLetter = "C",
 
+  [ComponentModel.DisplayName('Minimum Size GB')]
+  [Parameter(Mandatory)]
+  [int] $MinimumSizeGB = 128
+)
 try {
     Write-Output "Starting disk extension script..."
-    Write-Output "Target Drive: $DriveLetter:"
+    Write-Output "Target Drive: ${DriveLetter}:"
     Write-Output "Minimum required size: $MinimumSizeGB GB"
 
     $partition = Get-Partition -DriveLetter $DriveLetter -ErrorAction Stop
-    $volume = Get-Volume -DriveLetter $DriveLetter -ErrorAction Stop
+    $physicalDisk = $partition | Get-Disk -ErrorAction Stop
     $size = Get-PartitionSupportedSize -DriveLetter $DriveLetter -ErrorAction Stop
 
-    $diskSizeGB = [math]::Round($volume.Size / 1GB, 0)
+    $diskSizeGB = [math]::Round($physicalDisk.Size / 1GB, 0)
+
 
     Write-Output "Detected disk size: $diskSizeGB GB"
 
@@ -52,5 +58,5 @@ try {
     }
 }
 catch {
-    Write-Error "Failed to extend partition $DriveLetter: $_"
+    Write-Error "Failed to extend partition ${DriveLetter}:"
 }
