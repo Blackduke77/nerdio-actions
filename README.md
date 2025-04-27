@@ -9,14 +9,11 @@
 
 ---
 
-
 Welcome to the **Nerdio Scripted Actions Collection**!
 
 This repository contains curated and reusable PowerShell scripts optimized for use within [Nerdio Manager for Enterprise (NME)](https://getnerdio.com/nerdio-manager-enterprise/) and [Nerdio Manager for MSP (NMM)](https://getnerdio.com/nerdio-manager-msp/).
 
 Each script is designed to automate common post-provisioning, maintenance, and management tasks for Azure Virtual Machines and Windows hosts.
-
-Note: this code is provided as-is, without warranty or support of any kind.
 
 ---
 
@@ -33,6 +30,7 @@ Note: this code is provided as-is, without warranty or support of any kind.
 Each script is designed to be pasted into Nerdio Manager's **Scripted Actions** section.
 
 **General steps to add a script:**
+
 1. Navigate to **Scripted Actions** > **Windows Scripts** in Nerdio Manager.
 
 2. Click **Add Scripted Action**.
@@ -48,8 +46,6 @@ Each script is designed to be pasted into Nerdio Manager's **Scripted Actions** 
 ---
 
 ## ⚙️ Parameters
-
-Most scripts are parameterized for maximum flexibility.
 
 - **DriveLetter** (string, default `"C"`):  
   The drive letter to target for extension (e.g., `C`, `D`, `E`).
@@ -88,3 +84,4 @@ You are free to use, modify, and distribute these scripts under the terms of the
 
 ## 🔥 Repository Structure Example
 
+nerdio-actions/ │ ├── extend-disk-partition/ │ ├── extend-disk-partition.ps1 │ ├── README.md │ ├── another-script/ │ ├── another-script.ps1 │ ├── README.md │ ├── README.md <-- (this file)
