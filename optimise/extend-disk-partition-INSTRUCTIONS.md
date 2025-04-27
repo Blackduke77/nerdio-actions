@@ -34,7 +34,7 @@ When adding the script as a Scripted Action:
 - After resizing an Azure VM OS disk.
 - After adding a larger data disk to a VM.
 - During the auto-scaling process for session hosts.
-- As part of a post-provisioning step for VM builds.
+- As part of a post-provisioning step for VM Desktop Images.
 
 ---
 
