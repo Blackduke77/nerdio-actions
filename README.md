@@ -19,12 +19,6 @@ Each script is designed to automate common post-provisioning, maintenance, and m
 
 ## 📚 Available Scripts
 
-| Script Name | Purpose | OS | Parameters |
-|:------------|:--------|:---|:-----------|
-| [Extend Disk Partition](./extend-disk-partition/extend-disk-partition.ps1) | Extends an existing partition to use all available unallocated disk space. Useful after resizing OS or data disks. | Windows | DriveLetter, MinimumSizeGB |
-
-## 📚 Available Scripts
-
 ### Azure-Runbooks
 
 | Script Name | Purpose | OS | Parameters |
@@ -35,7 +29,7 @@ Each script is designed to automate common post-provisioning, maintenance, and m
 
 | Script Name | Purpose | OS | Parameters |
 |:------------|:--------|:---|:-----------|
-| [Enable Entra Authentication for RDP](./tweaks/enable-entra-authentication-for-rdp.ps1) | Configure GPO to allow RDP authentication for Microsoft Entra ID group. | Windows | GroupId, GroupName |
+| [Enable Entra Authentication for RDP](./tweaks/enable-entra-authentication-for-rdp.ps1) | suppresses the single sign-on (sso) consent prompts for Azure virtual desktop and Windows 365. | Windows | GroupId, GroupName |
 
 ### Applications
 
