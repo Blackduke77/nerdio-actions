@@ -43,6 +43,40 @@ Each script is designed to automate common post-provisioning, maintenance, and m
 |:------------|:--------|:---|:-----------|
 | [Extend Disk Partition](./optimise/extend-disk-partition.ps1) | Extends a disk partition to use all available unallocated space if disk size exceeds a threshold. | Windows | DriveLetter, MinimumSizeGB |
 
+## 📚 Available Scripts
+
+---
+
+### Tweaks
+
+| Script Name | Purpose | OS | Parameters | Info |
+|:------------|:--------|:---|:-----------|:-----|
+| [Enable Entra Authentication for RDP](./tweaks/enable-entra-authentication-for-rdp.ps1) | Configure GPO to allow RDP authentication for a Microsoft Entra ID group. | Windows | GroupId, GroupName | - |
+
+---
+
+### Applications
+
+| Script Name | Purpose | OS | Parameters | Info |
+|:------------|:--------|:---|:-----------|:-----|
+| _(none yet)_ | | | | |
+
+---
+
+### Optimise
+
+| Script Name | Purpose | OS | Parameters | Info |
+|:------------|:--------|:---|:-----------|:-----|
+| [Extend Disk Partition](./optimise/extend-disk-partition.ps1) | Extends a disk partition to use all available unallocated space if disk size exceeds a threshold. | Windows | DriveLetter, MinimumSizeGB | [Instructions](./optimise/extend-disk-partition-INSTRUCTIONS.md) |
+
+---
+
+### Azure-Runbooks
+
+| Script Name | Purpose | OS | Parameters | Info |
+|:------------|:--------|:---|:-----------|:-----|
+| _(none yet)_ | | | | |
+
 ---
 
 ## 🛠 Usage Instructions
