@@ -11,7 +11,7 @@
 
 Welcome to the **Nerdio Scripted Actions Collection**!
 
-This repository contains curated and reusable PowerShell scripts optimized for use within [Nerdio Manager for Enterprise (NME)]([https://getnerdio.com/nerdio-manager-enterprise](https://getnerdio.com/nerdio-manager/enterprise) and [Nerdio Manager for MSP (NMM)](https://getnerdio.com/nerdio/manager-msp).
+This repository contains curated and reusable PowerShell scripts optimized for use within [Nerdio Manager for Enterprise (NME)]([https://getnerdio.com/nerdio-manager-enterprise](https://getnerdio.com/nerdio-manager/enterprise) and [Nerdio Manager for MSP (NMM)](https://getnerdio.com/nerdio/manager/msp).
 
 Each script is designed to automate common post-provisioning, maintenance, and management tasks for Azure Virtual Machines and Windows hosts.
 
