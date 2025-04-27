@@ -87,12 +87,26 @@ You are free to use, modify, and distribute these scripts under the terms of the
 ```text
 nerdio-actions/
 │
-├── extend-disk-partition/
+├── azure-runbooks/
 │   ├── extend-disk-partition.ps1
+│   ├── scheduled-reboot-task.ps1
 │   ├── README.md
 │
-├── another-script/
-│   ├── another-script.ps1
+├── tweaks/
+│   ├── disable-lock-screen-timeout.ps1
+│   ├── configure-user-environment.ps1
 │   ├── README.md
 │
-├── README.md   <-- (this file)
+├── applications/
+│   ├── configure-onedrive.ps1
+│   ├── optimize-fslogix.ps1
+│   ├── install-chrome.ps1
+│   ├── README.md
+│
+├── optimise/
+│   ├── disable-unneeded-services.ps1
+│   ├── optimize-network-stack.ps1
+│   ├── README.md
+│
+├── README.md <-- (this file)
+
