@@ -4,6 +4,8 @@ This repository contains curated and reusable PowerShell scripts optimized for u
 
 Each script can be used to automate common post-provisioning or maintenance tasks across Azure Virtual Machines and Windows hosts.
 
+Note: this code is provided as-is, without warranty or support of any kind.
+
 ---
 
 ## 📚 Available Scripts
