@@ -19,32 +19,6 @@ Each script is designed to automate common post-provisioning, maintenance, and m
 
 ## 📚 Available Scripts
 
-### Azure-Runbooks
-
-| Script Name | Purpose | OS | Parameters |
-|:------------|:--------|:---|:-----------|
-| _(none yet)_ | | | |
-
-### Tweaks
-
-| Script Name | Purpose | OS | Parameters |
-|:------------|:--------|:---|:-----------|
-| [Enable Entra Authentication for RDP](./tweaks/enable-entra-authentication-for-rdp.ps1) | suppresses the single sign-on (sso) consent prompts for Azure virtual desktop and Windows 365. | Windows | GroupId, GroupName |
-
-### Applications
-
-| Script Name | Purpose | OS | Parameters |
-|:------------|:--------|:---|:-----------|
-| _(none yet)_ | | | |
-
-### Optimise
-
-| Script Name | Purpose | OS | Parameters |
-|:------------|:--------|:---|:-----------|
-| [Extend Disk Partition](./optimise/extend-disk-partition.ps1) | Extends a disk partition to use all available unallocated space if disk size exceeds a threshold. | Windows | DriveLetter, MinimumSizeGB |
-
-## 📚 Available Scripts
-
 ---
 
 ### Tweaks
