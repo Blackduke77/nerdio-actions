@@ -84,4 +84,15 @@ You are free to use, modify, and distribute these scripts under the terms of the
 
 ## 🔥 Repository Structure Example
 
-nerdio-actions/ │ ├── extend-disk-partition/ │ ├── extend-disk-partition.ps1 │ ├── README.md │ ├── another-script/ │ ├── another-script.ps1 │ ├── README.md │ ├── README.md <-- (this file)
+```text
+nerdio-actions/
+│
+├── extend-disk-partition/
+│   ├── extend-disk-partition.ps1
+│   ├── README.md
+│
+├── another-script/
+│   ├── another-script.ps1
+│   ├── README.md
+│
+├── README.md   <-- (this file)
