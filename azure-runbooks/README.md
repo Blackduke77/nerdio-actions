@@ -8,7 +8,7 @@ Scripts that automate background management tasks for Azure VMs in Nerdio Manage
 
 | Script Name | Purpose | Parameters |
 |:------------|:--------|:-----------|
-| _(No scripts yet)_ | Extend a partition to use all available disk space. | DriveLetter, MinimumSizeGB |
+| _(No scripts yet)_ |  |  |
 
 ---
 
